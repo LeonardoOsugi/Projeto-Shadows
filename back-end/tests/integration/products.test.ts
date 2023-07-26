@@ -3,9 +3,9 @@ import httpStatus from 'http-status';
 import supertest from 'supertest';
 import { productsCreate, productsEmpty } from '../factories';
 import { cleanDb } from '../helpers';
-import { duplicatedEmailError } from '@/services/users-service/errors';
-import { prisma } from '@/config';
-import app, { init } from '@/app';
+import { duplicatedEmailError } from '../services/users-service/errors';
+import { prisma } from '../config';
+import app, { init } from '../app';
 
 
 

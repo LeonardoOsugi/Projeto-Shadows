@@ -1,7 +1,7 @@
 import { users } from "@prisma/client";
 import bcrypt from 'bcrypt';
 import { duplicatedEmailError, invalidCredentialsError } from "./errors";
-import userRepository from "@/repositories/users-repositories";
+import userRepository from "../../repositories/users-repositories";
 import jwt from "jsonwebtoken";
 
 

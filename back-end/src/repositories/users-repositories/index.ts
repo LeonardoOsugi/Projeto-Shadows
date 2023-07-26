@@ -1,5 +1,5 @@
-import { prisma } from "@/config";
-import { CreateUserParams } from "@/services";
+import { prisma } from "../../config";
+import { CreateUserParams } from "../../services";
 import { users } from "@prisma/client";
 
 

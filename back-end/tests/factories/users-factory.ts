@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt';
 import {faker} from '@faker-js/faker';
 import { users } from "@prisma/client";
-import { prisma } from '@/config';
+import { prisma } from '../config';
 
 
 

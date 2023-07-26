@@ -1,5 +1,5 @@
-import { postPayments } from "@/controllers";
-import { authenticateToken } from "@/middlewares";
+import { postPayments } from "../controllers";
+import { authenticateToken } from "../middlewares";
 import { Router } from "express";
 
 

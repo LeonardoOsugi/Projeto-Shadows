@@ -1,6 +1,6 @@
-import { createUser, loginUser } from "@/controllers";
-import { validateBody } from "@/middlewares";
-import { createUserSchema, signInSchema } from "@/schemas";
+import { createUser, loginUser } from "../controllers";
+import { validateBody } from "../middlewares";
+import { createUserSchema, signInSchema } from "../schemas";
 import { Router } from "express";
 
 const usersRouter = Router();

@@ -1,5 +1,5 @@
-import { AuthenticatedRequest } from "@/middlewares";
-import cartService from "@/services/carts-service";
+import { AuthenticatedRequest } from "../middlewares";
+import cartService from "../services/carts-service";
 import { NextFunction, Response } from "express";
 import httpStatus from "http-status";
 

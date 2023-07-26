@@ -1,7 +1,7 @@
 import { users } from '@prisma/client';
 import * as jwt from 'jsonwebtoken';
 import { createUser } from './factories';
-import { prisma } from '@/config';
+import { prisma } from './config';
 
 export async function cleanDb() {
     await prisma.products.deleteMany({});

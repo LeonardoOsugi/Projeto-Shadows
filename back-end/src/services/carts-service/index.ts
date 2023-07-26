@@ -1,7 +1,7 @@
-import { forBiddenError, notFoundError } from "@/errors";
-import cartsRepository from "@/repositories/carts-repository";
-import productsRepositories from "@/repositories/products-repositories";
-import userRepository from "@/repositories/users-repositories";
+import { forBiddenError, notFoundError } from "../../errors";
+import cartsRepository from "../../repositories/carts-repository";
+import productsRepositories from "../../repositories/products-repositories";
+import userRepository from "../../repositories/users-repositories";
 import { carts, products } from "@prisma/client";
 
 

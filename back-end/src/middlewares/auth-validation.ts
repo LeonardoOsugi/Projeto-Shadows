@@ -1,4 +1,4 @@
-import { unauthorizedError } from "@/errors";
+import { unauthorizedError } from "../errors";
 import { NextFunction, Request, Response } from "express";
 import httpStatus from "http-status";
 import jwt from 'jsonwebtoken';

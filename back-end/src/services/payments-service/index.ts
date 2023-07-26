@@ -1,8 +1,8 @@
-import { notFoundError } from "@/errors";
-import { CardPaymentParams, PaymentParams } from "@/protocols";
-import cartRepository from "@/repositories/carts-repository";
-import paymentRepository from "@/repositories/payments-repository";
-import userRepository from "@/repositories/users-repositories";
+import { notFoundError } from "../../errors";
+import { CardPaymentParams, PaymentParams } from "../../protocols";
+import cartRepository from "../../repositories/carts-repository";
+import paymentRepository from "../../repositories/payments-repository";
+import userRepository from "../../repositories/users-repositories";
 import { payments } from "@prisma/client";
 
 

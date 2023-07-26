@@ -1,4 +1,4 @@
-import productService from "@/services/products-service";
+import productService from "../services/products-service";
 import { NextFunction, Request, Response } from "express";
 import httpStatus from "http-status";
 

@@ -1,6 +1,6 @@
-import { AuthenticatedRequest } from "@/middlewares";
-import { CardPaymentParams } from "@/protocols";
-import paymentsService from "@/services/payments-service";
+import { AuthenticatedRequest } from "../middlewares";
+import { CardPaymentParams } from "../protocols";
+import paymentsService from "../services/payments-service";
 import { NextFunction, Response } from "express";
 import httpStatus from "http-status";
 
